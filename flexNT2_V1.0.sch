@@ -423,20 +423,14 @@ DIN A4, landscape with location and doc. field</description>
 <net name="VCC" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VOUT"/>
-<wire x1="66.04" y1="127" x2="71.12" y2="127" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="127" x2="71.12" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VCC"/>
-<wire x1="71.12" y1="124.46" x2="71.12" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="121.92" x2="66.04" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="124.46" x2="81.28" y2="124.46" width="0.1524" layer="91"/>
-<junction x="71.12" y="124.46"/>
-<wire x1="81.28" y1="124.46" x2="81.28" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="127" x2="81.28" y2="127" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="127" x2="81.28" y2="147.32" width="0.1524" layer="91"/>
 <label x="73.66" y="124.46" size="1.778" layer="95"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="147.32" x2="91.44" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="+"/>
-<wire x1="81.28" y1="124.46" x2="81.28" y2="114.3" width="0.1524" layer="91"/>
-<junction x="81.28" y="124.46"/>
+<wire x1="81.28" y1="127" x2="81.28" y2="114.3" width="0.1524" layer="91"/>
+<junction x="81.28" y="127"/>
 </segment>
 </net>
 <net name="N$3" class="0">
