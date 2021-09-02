@@ -76,129 +76,70 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="frames" urn="urn:adsk.eagle:library:229">
-<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="A4L-LOC" urn="urn:adsk.eagle:symbol:13874/1" library_version="1">
-<wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="256.54" y1="19.05" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="161.29" y1="3.81" x2="161.29" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="161.29" y1="24.13" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="246.38" y1="3.81" x2="246.38" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="246.38" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="246.38" y1="8.89" x2="215.265" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="8.89" x2="215.265" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="8.89" x2="215.265" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="13.97" x2="215.265" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
-<text x="217.17" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
-<text x="217.17" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
-<text x="230.505" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
-<text x="216.916" y="4.953" size="2.54" layer="94">Sheet:</text>
-<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="A4L-LOC" urn="urn:adsk.eagle:component:13926/1" prefix="FRAME" uservalue="yes" library_version="1">
-<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
-DIN A4, landscape with location and doc. field</description>
-<gates>
-<gate name="G$1" symbol="A4L-LOC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="Samuel_Collection">
+<library name="flexNT2_V1.0">
+<description>Generated from &lt;b&gt;flexNT2_V1.0.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
 <packages>
 <package name="0603_FLEX_C_POL">
-<smd name="P$1" x="-0.8" y="0" dx="0.4" dy="1" layer="1" roundness="20"/>
-<smd name="P$2" x="0.8" y="0" dx="0.4" dy="1" layer="1" roundness="20"/>
 <wire x1="-0.762" y1="0.381" x2="0.762" y2="0.381" width="0.0762" layer="51"/>
 <wire x1="0.762" y1="0.381" x2="0.762" y2="-0.381" width="0.0762" layer="51"/>
 <wire x1="0.762" y1="-0.381" x2="-0.762" y2="-0.381" width="0.0762" layer="51"/>
 <wire x1="-0.762" y1="-0.381" x2="-0.762" y2="0.381" width="0.0762" layer="51"/>
 <wire x1="0.4" y1="-0.4" x2="0.4" y2="0.4" width="0.2" layer="21"/>
-<text x="-0.55" y="0" size="0.35" layer="21" font="vector" ratio="10" align="center-left">&gt;Name</text>
-</package>
-<package name="0603_FLEX">
 <smd name="P$1" x="-0.8" y="0" dx="0.4" dy="1" layer="1" roundness="20"/>
 <smd name="P$2" x="0.8" y="0" dx="0.4" dy="1" layer="1" roundness="20"/>
-<wire x1="-0.762" y1="0.381" x2="0.762" y2="0.381" width="0.0762" layer="51"/>
-<wire x1="0.762" y1="0.381" x2="0.762" y2="-0.381" width="0.0762" layer="51"/>
-<wire x1="0.762" y1="-0.381" x2="-0.762" y2="-0.381" width="0.0762" layer="51"/>
-<wire x1="-0.762" y1="-0.381" x2="-0.762" y2="0.381" width="0.0762" layer="51"/>
-<text x="0" y="0" size="0.35" layer="21" font="vector" ratio="10" align="center">&gt;Name</text>
+<text x="-0.55" y="0" size="0.35" layer="21" font="vector" ratio="10" align="center-left">&gt;Name</text>
 </package>
 <package name="0807RGBFF_CZINELIGHT">
 <smd name="P$1" x="-0.765" y="0" dx="1.57" dy="0.57" layer="1" rot="R90"/>
 <smd name="P$2" x="0.765" y="0" dx="1.57" dy="0.57" layer="1" rot="R90"/>
+<text x="0" y="0.9" size="0.3" layer="25" font="vector" ratio="10" align="bottom-center">&gt;Name</text>
 <polygon width="0.127" layer="21">
 <vertex x="-0.3" y="0.6"/>
 <vertex x="-0.3" y="-0.6"/>
 <vertex x="0.3" y="0"/>
 </polygon>
-<text x="0" y="0.9" size="0.3" layer="25" font="vector" ratio="10" align="bottom-center">&gt;Name</text>
+</package>
+<package name="0603_FLEX">
+<wire x1="-0.762" y1="0.381" x2="0.762" y2="0.381" width="0.0762" layer="51"/>
+<wire x1="0.762" y1="0.381" x2="0.762" y2="-0.381" width="0.0762" layer="51"/>
+<wire x1="0.762" y1="-0.381" x2="-0.762" y2="-0.381" width="0.0762" layer="51"/>
+<wire x1="-0.762" y1="-0.381" x2="-0.762" y2="0.381" width="0.0762" layer="51"/>
+<smd name="P$1" x="-0.8" y="0" dx="0.4" dy="1" layer="1" roundness="20"/>
+<smd name="P$2" x="0.8" y="0" dx="0.4" dy="1" layer="1" roundness="20"/>
+<text x="0" y="0" size="0.35" layer="21" font="vector" ratio="10" align="center">&gt;Name</text>
 </package>
 <package name="XQFN8_NTAG-I2C+">
 <wire x1="-0.8" y1="-0.8" x2="-0.8" y2="0.8" width="0.025" layer="51"/>
 <wire x1="-0.8" y1="0.8" x2="0.8" y2="0.8" width="0.025" layer="51"/>
 <wire x1="0.8" y1="0.8" x2="0.8" y2="-0.8" width="0.025" layer="51"/>
 <wire x1="0.8" y1="-0.8" x2="-0.8" y2="-0.8" width="0.025" layer="51"/>
-<smd name="LA" x="-0.6" y="0.5" dx="0.45" dy="0.25" layer="1" roundness="5"/>
-<smd name="VSS" x="-0.6" y="0" dx="0.45" dy="0.25" layer="1" roundness="5"/>
-<smd name="SCL" x="-0.6" y="-0.5" dx="0.45" dy="0.25" layer="1" roundness="5"/>
+<wire x1="-0.2" y1="0.2" x2="-0.200003125" y2="0.2" width="0.3" layer="21"/>
 <smd name="FD" x="0" y="-0.575" dx="0.45" dy="0.25" layer="1" roundness="5" rot="R90"/>
+<smd name="LA" x="-0.6" y="0.5" dx="0.45" dy="0.25" layer="1" roundness="5"/>
+<smd name="LB" x="0" y="0.575" dx="0.45" dy="0.25" layer="1" roundness="5" rot="R270"/>
+<smd name="SCL" x="-0.6" y="-0.5" dx="0.45" dy="0.25" layer="1" roundness="5"/>
 <smd name="SDA" x="0.6" y="-0.5" dx="0.45" dy="0.25" layer="1" roundness="5" rot="R180"/>
 <smd name="VCC" x="0.6" y="0" dx="0.45" dy="0.25" layer="1" roundness="5" rot="R180"/>
 <smd name="VOUT" x="0.6" y="0.5" dx="0.45" dy="0.25" layer="1" roundness="5" rot="R180"/>
-<smd name="LB" x="0" y="0.575" dx="0.45" dy="0.25" layer="1" roundness="5" rot="R270"/>
-<wire x1="-0.2" y1="0.2" x2="-0.200003125" y2="0.2" width="0.3" layer="21"/>
+<smd name="VSS" x="-0.6" y="0" dx="0.45" dy="0.25" layer="1" roundness="5"/>
 </package>
 </packages>
 <symbols>
 <symbol name="C_POL">
+<rectangle x1="-0.5715" y1="-0.4445" x2="2.7305" y2="0.4445" layer="94" rot="R90"/>
 <wire x1="-0.635" y1="-1.524" x2="-0.635" y2="1.524" width="0.254" layer="94"/>
 <wire x1="-0.635" y1="1.524" x2="-1.524" y2="1.524" width="0.254" layer="94"/>
 <wire x1="-1.524" y1="-1.524" x2="-0.635" y2="-1.524" width="0.254" layer="94"/>
 <wire x1="-1.524" y1="-1.524" x2="-1.524" y2="0" width="0.254" layer="94"/>
-<text x="0.0254" y="2.159" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="-1.9304" y="1.7018" size="1.27" layer="94" rot="R180">+</text>
-<text x="0.0254" y="-2.159" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.5715" y1="-0.4445" x2="2.7305" y2="0.4445" layer="94" rot="R90"/>
-<pin name="-" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="+" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 <wire x1="-1.524" y1="0" x2="-1.524" y2="1.524" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
-</symbol>
-<symbol name="R">
-<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
-<text x="0" y="1.7526" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.524" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="+" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="-" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="0.0254" y="2.159" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-1.9304" y="1.7018" size="1.27" layer="94" rot="R180">+</text>
+<text x="0.0254" y="-2.159" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
 </symbol>
 <symbol name="LED_AUTO_RGB">
 <wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
@@ -208,9 +149,6 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="-1.397" y1="-1.143" x2="-2.032" y2="-1.778" width="0.1524" layer="94"/>
-<text x="-6.096" y="6.096" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<pin name="C" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="A" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
 <wire x1="-1.143" y1="-1.397" x2="-1.778" y2="-2.032" width="0.1524" layer="94"/>
 <wire x1="4.572" y1="0" x2="3.302" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="3.302" y1="-2.54" x2="2.032" y2="0" width="0.254" layer="94"/>
@@ -253,23 +191,64 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="-6.35" y1="-6.35" x2="6.35" y2="-6.35" width="0.3048" layer="94"/>
 <wire x1="6.35" y1="-6.35" x2="6.35" y2="6.35" width="0.3048" layer="94"/>
 <wire x1="6.35" y1="6.35" x2="-6.35" y2="6.35" width="0.3048" layer="94"/>
+<pin name="A" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="C" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<text x="-6.096" y="6.096" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-3.556" y="-0.762" size="0.762" layer="94" font="vector" ratio="10" align="center-left">R</text>
 <text x="-0.254" y="-0.762" size="0.762" layer="94" font="vector" ratio="10" align="center-left">G</text>
 <text x="3.048" y="-0.762" size="0.762" layer="94" font="vector" ratio="10" align="center-left">B</text>
+</symbol>
+<symbol name="A4L-LOC">
+<wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="19.05" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="3.81" x2="161.29" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="24.13" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="3.81" x2="246.38" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="8.89" x2="215.265" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="13.97" x2="215.265" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
+<text x="217.17" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="217.17" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="230.505" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
+<text x="216.916" y="4.953" size="2.54" layer="94">Sheet:</text>
+<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
+</symbol>
+<symbol name="R">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<text x="0" y="1.7526" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
 </symbol>
 <symbol name="NTAG-I2C+">
 <wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<pin name="LA" x="-10.16" y="5.08" length="short"/>
-<pin name="VSS" x="-10.16" y="0" length="short"/>
-<pin name="SCL" x="-10.16" y="-5.08" length="short"/>
 <pin name="FD" x="0" y="-10.16" length="short" rot="R90"/>
+<pin name="LA" x="-10.16" y="5.08" length="short"/>
+<pin name="LB" x="0" y="10.16" length="short" rot="R270"/>
+<pin name="SCL" x="-10.16" y="-5.08" length="short"/>
 <pin name="SDA" x="10.16" y="-5.08" length="short" rot="R180"/>
 <pin name="VCC" x="10.16" y="0" length="short" rot="R180"/>
 <pin name="VOUT" x="10.16" y="5.08" length="short" rot="R180"/>
-<pin name="LB" x="0" y="10.16" length="short" rot="R270"/>
+<pin name="VSS" x="-10.16" y="0" length="short"/>
 <text x="1.524" y="8.89" size="1.778" layer="95">&gt;Name</text>
 </symbol>
 </symbols>
@@ -290,22 +269,6 @@ DIN A4, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_0603_FLEX" package="0603_FLEX">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CZINELIGHT" prefix="D">
 <description>https://czinelight.en.alibaba.com/product/62172100927-807984811/Czinelight_Quality_Smd_0805_Rgb_Tri_color_Led_Diode_Built_in_Ic_Fast_And_Slowly_Flashing_0807_Rgb_Blinking_Fading_Smd_Led_Chip.html</description>
 <gates>
@@ -316,6 +279,36 @@ DIN A4, landscape with location and doc. field</description>
 <connects>
 <connect gate="G$1" pin="A" pad="P$1"/>
 <connect gate="G$1" pin="C" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A4L-LOC" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+DIN A4, landscape with location and doc. field</description>
+<gates>
+<gate name="G$1" symbol="A4L-LOC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0603_FLEX" package="0603_FLEX">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -358,13 +351,13 @@ DIN A4, landscape with location and doc. field</description>
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="U1" library="Samuel_Collection" deviceset="NTAG-I2C+" device=""/>
-<part name="C1" library="Samuel_Collection" deviceset="C_POL" device="_0603_FLEX"/>
-<part name="C2" library="Samuel_Collection" deviceset="C_POL" device="_0603_FLEX" value="200pF"/>
-<part name="R1" library="Samuel_Collection" deviceset="R" device="_0603_FLEX" value="470Ω"/>
-<part name="D1" library="Samuel_Collection" deviceset="CZINELIGHT" device="_0807RGBFF"/>
-<part name="D2" library="Samuel_Collection" deviceset="CZINELIGHT" device="_0807RGBFF"/>
+<part name="FRAME1" library="flexNT2_V1.0" deviceset="A4L-LOC" device=""/>
+<part name="U1" library="flexNT2_V1.0" deviceset="NTAG-I2C+" device=""/>
+<part name="C1" library="flexNT2_V1.0" deviceset="C_POL" device="_0603_FLEX"/>
+<part name="C2" library="flexNT2_V1.0" deviceset="C_POL" device="_0603_FLEX" value="200nF"/>
+<part name="R1" library="flexNT2_V1.0" deviceset="R" device="_0603_FLEX" value="470Ω"/>
+<part name="D1" library="flexNT2_V1.0" deviceset="CZINELIGHT" device="_0807RGBFF"/>
+<part name="D2" library="flexNT2_V1.0" deviceset="CZINELIGHT" device="_0807RGBFF"/>
 </parts>
 <sheets>
 <sheet>
@@ -474,16 +467,4 @@ DIN A4, landscape with location and doc. field</description>
 </errors>
 </schematic>
 </drawing>
-<compatibility>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-</compatibility>
 </eagle>

@@ -1,12 +1,9 @@
-Partlist:
+Partlist
+Part     Value                Package    Library      Position (mm)         Orientation
 
-Exported from flexNT2_V1.0.brd 
-
-Part     Value                Package    Library           Position (mm)         Orientation
-
-C1       Optional Tuning      0603       flexNT2_V1.0      (33.69 4.49)          R90
-C2       200pF                0603       flexNT2_V1.0      (35.67 2.75)          R180
-D1       CZINELIGHT 0807RGBFF 0603       flexNT2_V1.0      (36.8 4.4)            R270
-D2       CZINELIGHT 0807RGBFF 0603       flexNT2_V1.0      (38.5 4.4)            R270
-R1       470omh               0603       flexNT2_V1.0      (35.69 6.05)          R0
-U1       NTAG-I2C+            XQFN8      flexNT2_V1.0      (35.09 4.46)          R90
+C1       Tuning               0603       flexNT2_V1.0 (30.99 2.99)          R90
+C2       200nF                0603       flexNT2_V1.0 (32.97 1.25)          R180
+D1       CZINELIGHT_0807RGBFF 0807       flexNT2_V1.0 (34.1 2.9)            R270
+D2       CZINELIGHT_0807RGBFF 0807       flexNT2_V1.0 (35.8 2.9)            R270
+R1       470ohm               0603       flexNT2_V1.0 (32.99 4.55)          R0
+U1       NTAG-I2C+            XQFN8      flexNT2_V1.0 (32.39 2.96)          R90
